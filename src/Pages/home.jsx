@@ -33,3 +33,5 @@ class home extends Component {
           </div>;
     }
 }
+
+export default home
