@@ -1,9 +1,12 @@
 import React, {Component} from 'react';
+import NavBar from "../Components/NavBar.jsx";
+
 
 class home extends Component {
     render() {
         return (
         <div>
+            <NavBar />
             <div className="container">
                 <h2>Welcome</h2>
                 <p>
