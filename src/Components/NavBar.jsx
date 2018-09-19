@@ -4,7 +4,7 @@ import "./NavBar.css";
 
 class NavBar extends Component {
   render() {
-    return <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    return <nav className="navbar navbar-expand-md ">
         <div className="container">
           <Link className="navbar-brand" to="/">
             React Website
