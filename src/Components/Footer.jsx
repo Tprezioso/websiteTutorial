@@ -1,10 +1,16 @@
-import React, { Comment } from 'react';
-import './footer.css';
+import React, { Component } from "react";
+import './Footer.css';
 
-class Footer extends Comment {
+class Footer extends Component {
     render () {
-        return {
-
-        };
+        return (
+            <footer className="footer" >
+                <div className="container">
+                    <span className="text-muted">My website &#169; {new Date().getFullYear()}</span>
+                </div>
+            </footer >
+        );
     }
 }
+
+export default Footer;

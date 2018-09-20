@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import NavBar from "../Components/NavBar.jsx";
+import NavBar from '../Components/NavBar.jsx';
+import Footer from '../Components/Footer.jsx';
 
 
 class home extends Component {
@@ -16,7 +17,7 @@ class home extends Component {
                     inceptos himenaeos. Donec viverra mauris at sodales
                     auctor. Nunc molestie erat sit amet quam interdum
                     consequat. Donec sed sagittis lorem. Aenean leo metus,
-                    pharetra ac ultrices vel, dapibus sit amet mauris. Nam ut
+                    spharetra ac ultrices vel, dapibus sit amet mauris. Nam ut
                     fermentum sem, id ornare quam. Integer hendrerit ac nulla
                     eget laoreet. Aenean vitae tincidunt magna.
             </p>
@@ -36,7 +37,9 @@ class home extends Component {
                     erat.
             </p>
             </div>
-        </div>);
+            <Footer />
+        </div>
+        );
     }
 }
 
