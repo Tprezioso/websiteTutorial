@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from '../Components/NavBar.jsx';
 import Footer from '../Components/Footer.jsx';
+import Jumbotron from '../Components/Jumbotron.jsx'
 
 
 class home extends Component {
@@ -8,6 +9,7 @@ class home extends Component {
         return (
         <div>
             <NavBar />
+            <Jumbotron title="Welcome" subtitle= "Put something witty here" />
             <div className="container">
                 <h2>Welcome</h2>
                 <p>
