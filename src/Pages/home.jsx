@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from '../Components/NavBar.jsx';
 import Footer from '../Components/Footer.jsx';
-import Jumbotron from '../Components/Jumbotron.jsx'
+import Jumbotron from '../Components/Jumbotron.jsx';
 
 class home extends Component {
     render() {
