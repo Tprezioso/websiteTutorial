@@ -8,7 +8,7 @@ class Contact extends Component {
     render() {
         return (
         <div>
-            <NavBar />
+            <NavBar/>
             <Jumbotron title="Contact" subtitle= "The Contact subsitle" />
             <div className="container">
                 <h2>Contact</h2>

@@ -8,7 +8,7 @@ class Footer extends Component {
                 <div className="container">
                     <span className="text-muted">My website &#169; {new Date().getFullYear()}</span>
                 </div>
-            </footer >
+            </footer>
         );
     }
 }
