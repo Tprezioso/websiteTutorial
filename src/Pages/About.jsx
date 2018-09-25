@@ -22,7 +22,7 @@ class About extends Component {
                     spharetra ac ultrices vel, dapibus sit amet mauris. Nam ut
                     fermentum sem, id ornare quam. Integer hendrerit ac nulla
                     eget laoreet. Aenean vitae tincidunt magna.
-            </p>
+                </p>
                 <p>
                     Sed volutpat augue augue, a convallis erat efficitur in.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -37,9 +37,9 @@ class About extends Component {
                     vel imperdiet. Nunc viverra viverra enim in ullamcorper.
                     Donec magna ipsum, porta sit amet urna ac, congue lacinia
                     erat.
-            </p>
+                </p>
             </div>
-            <Footer />
+            <Footer/>
         </div>
         );
     }
