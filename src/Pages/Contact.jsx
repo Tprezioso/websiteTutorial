@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
-import Jumbotron from '../Components/Jumbotron';
+import Jumbotron from '../Components/Jumbotron'
 
 
 class Contact extends Component {
     render() {
         return (
         <div>
-            <NavBar/>
+            <NavBar />
             <Jumbotron title="Contact" subtitle= "The Contact subsitle" />
             <div className="container">
                 <h2>Contact</h2>
@@ -22,7 +22,7 @@ class Contact extends Component {
                     spharetra ac ultrices vel, dapibus sit amet mauris. Nam ut
                     fermentum sem, id ornare quam. Integer hendrerit ac nulla
                     eget laoreet. Aenean vitae tincidunt magna.
-                </p>
+            </p>
                 <p>
                     Sed volutpat augue augue, a convallis erat efficitur in.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -37,9 +37,9 @@ class Contact extends Component {
                     vel imperdiet. Nunc viverra viverra enim in ullamcorper.
                     Donec magna ipsum, porta sit amet urna ac, congue lacinia
                     erat.
-                </p>
+            </p>
             </div>
-            <Footer/>
+            <Footer />
         </div>
         );
     }
