@@ -2,6 +2,16 @@ import React, {Component} from 'react';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 import Jumbotron from '../Components/Jumbotron'
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+  CardBody,
+  Fa,
+  Button,
+  Input
+} from "mdbreact";
 
 
 class Contact extends Component {
@@ -12,33 +22,87 @@ class Contact extends Component {
             <Jumbotron title="Contact" subtitle= "The Contact subsitle" />
             <div className="container">
                 <h2>Contact</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Etiam vitae nisi ac metus pulvinar aliquet. Class aptent
-                    taciti sociosqu ad litora torquent per conubia nostra, per
-                    inceptos himenaeos. Donec viverra mauris at sodales
-                    auctor. Nunc molestie erat sit amet quam interdum
-                    consequat. Donec sed sagittis lorem. Aenean leo metus,
-                    spharetra ac ultrices vel, dapibus sit amet mauris. Nam ut
-                    fermentum sem, id ornare quam. Integer hendrerit ac nulla
-                    eget laoreet. Aenean vitae tincidunt magna.
-            </p>
-                <p>
-                    Sed volutpat augue augue, a convallis erat efficitur in.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque fringilla ligula id egestas accumsan. Nunc at
-                    enim ut ipsum pulvinar maximus. Integer id augue interdum
-                    diam aliquet euismod. Aenean magna eros, pretium ut
-                    euismod sit amet, laoreet eu lacus. Ut congue ac diam
-                    venenatis consectetur. Nullam vitae dapibus enim.
-                    Pellentesque nec neque sit amet dui tempor lacinia.
-                    Aliquam erat volutpat. Donec enim nisi, commodo sit amet
-                    nisi ut, dapibus sodales leo. Donec fringilla porta nibh
-                    vel imperdiet. Nunc viverra viverra enim in ullamcorper.
-                    Donec magna ipsum, porta sit amet urna ac, congue lacinia
-                    erat.
-            </p>
-            </div>
+                    <section className="contact-section my-5">
+                        <Card>
+                            <Row>
+                                <Col lg="8">
+                                    <CardBody className="form">
+                                        <h3 className="mt-4">
+                                            <Fa icon="envelope" className="pr-2" />Write to us:
+                  </h3>
+                                        <Row>
+                                            <Col md="6">
+                                                <div className="md-form mb-0">
+                                                    <Input type="text" id="form-contact-name" label="Your name" />
+                                                </div>
+                                            </Col>
+                                            <Col md="6">
+                                                <div className="md-form mb-0">
+                                                    <Input type="text" id="form-contact-email" label="Your email" />
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col md="6">
+                                                <div className="md-form mb-0">
+                                                    <Input type="text" id="form-contact-phone" label="Your phone" />
+                                                </div>
+                                            </Col>
+                                            <Col md="6">
+                                                <div className="md-form mb-0">
+                                                    <Input type="text" id="form-contact-company" label="Your company" />
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                        <Row>
+                                            <Col md="12">
+                                                <div className="md-form mb-0">
+                                                    <Input type="textarea" id="form-contact-message" label="Your message" />
+                                                    <Button tag="a" floating color="blue" size="lg">
+                                                        <Fa icon="send-o" />
+                                                    </Button>
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </CardBody>
+                                </Col>
+                                <Col lg="4">
+                                    <CardBody className="contact text-center h-100 white-text">
+                                        <h3 className="my-4 pb-2">Contact information</h3>
+                                        <ul className="text-lg-left list-unstyled ml-4">
+                                            <li>
+                                                <p><Fa icon="map-marker" className="pr-2" />New York, 94126 USA</p>
+                                            </li>
+                                            <li>
+                                                <p><Fa icon="phone" className="pr-2" />+ 01 234 567 89</p>
+                                            </li>
+                                            <li>
+                                                <p><Fa icon="envelope" className="pr-2" />contact@example.com</p>
+                                            </li>
+                                        </ul>
+                                        <hr className="hr-light my-4" />
+                                        <ul className="list-inline text-center list-unstyled">
+                                            <li className="list-inline-item">
+                                                <a className="p-2 fa-lg w-ic">
+                                                    <Fa icon="twitter" />
+                                                </a>
+                                            </li>
+                                            <li className="list-inline-item">
+                                                <a className="p-2 fa-lg w-ic">
+                                                    <Fa icon="linkedin" />
+                                                </a>
+                                            </li>
+                                            <li className="list-inline-item">
+                                                <a className="p-2 fa-lg w-ic">
+                                                    <Fa icon="instagram" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </CardBody>
+                                </Col>
+                            </Row>
+                        </Card>
+                    </section>            </div>
             <Footer />
         </div>
         );
