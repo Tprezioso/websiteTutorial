@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import NavBar from '../Components/NavBar';
 import Footer from '../Components/Footer';
 import Jumbotron from '../Components/Jumbotron';
+import Slider from '../Components/Slider'
+
 
 
 class About extends Component {
@@ -9,6 +11,8 @@ class About extends Component {
         return (
         <div>
             <NavBar/>
+            {/* TO DO: add slider view*/}
+           {/* <Slider/>*/}
             <Jumbotron title="About" subtitle= "The About subsitle" />
             <div className="container">
                 <h2>About</h2>
