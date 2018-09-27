@@ -12,7 +12,7 @@ class About extends Component {
         <div>
             <NavBar/>
             {/* TO DO: add slider view*/}
-           {/* <Slider/>*/}
+                {/*<Slider className="Slider"/>*/}
             <Jumbotron title="About" subtitle= "The About subsitle" />
             <div className="container">
                 <h2>About</h2>
