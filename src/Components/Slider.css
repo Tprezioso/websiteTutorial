@@ -3,8 +3,9 @@
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
+  height: 268px;
 }
 
 .slider-image-2 {
-  background-image: url(../images/close-up-cucumber-cuisine-1440119.jpg)
+  background-image: url(../images/close-up-cucumber-cuisine-1440119.jpg);
 }
