@@ -1,6 +1,10 @@
 .slick-slide {
- background-position: center;
+   background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
+}
+
+.slider-image-2 {
+  background-image: url(../images/close-up-cucumber-cuisine-1440119.jpg)
 }
