@@ -15,29 +15,29 @@ export default class SimpleSlider extends Component {
             autoplaySpeed: 4000,
             pauseOnHover: true,
         };
-      return (<div>
-        <div className="jumbotron-fluid">
-          <Slider {...settings}>
-            <div className="slider-image-1 slick-slide" style="display: inline-block">
-              <h3 >1</h3>
-            </div>
+      return <div>
+          <div className="jumbotron-fluid">
+            <Slider {...settings}>
+              <div className="slider-image-1 slick-slide" style="display: inline-block">
+                <h3>1</h3>
+              </div>
+              <div className=" slider-image-2 slick-slide" style="display: inline-block">
+                <h3>2</h3>
+              </div>
+              <div className="slider-image-1 slick-slide" style="display: inline-block">
+                <h3>3</h3>
+              </div>
             <div className=" slider-image-2 slick-slide" style="display: inline-block">
-              <h3>2</h3>
-            </div>
-            <div>
-              <h3>3</h3>
-            </div>
-            <div>
-              <h3>4</h3>
-            </div>
-            <div>
-              <h3>5</h3>
-            </div>
-            <div>
-              <h3>6</h3>
-            </div>
-          </Slider>
-        </div>
-      </div>);
+                <h3>4</h3>
+              </div>
+            <div className="slider-image-1 slick-slide" style="display: inline-block">
+                <h3>5</h3>
+              </div>
+            <div className=" slider-image-2 slick-slide" style="display: inline-block">
+                <h3>6</h3>
+              </div>
+            </Slider>
+          </div>
+        </div>;
     }
 }
