@@ -16,10 +16,10 @@ export default class SimpleSlider extends Component {
             pauseOnHover: true,
         };
       return (<div>
-        <div className=" jumbotron-fluid">
+        <div className="jumbotron-fluid">
           <Slider {...settings}>
-            <div style="display: inline-block">
-              <h3>1</h3>
+            <div className="slider-image-1 slick-slide" style="display: inline-block">
+              <h3 >1</h3>
             </div>
             <div className=" slider-image-2 slick-slide" style="display: inline-block">
               <h3>2</h3>
