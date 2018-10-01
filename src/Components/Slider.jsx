@@ -15,8 +15,8 @@ export default class SimpleSlider extends Component {
             autoplaySpeed: 4000,
             pauseOnHover: true,
         };
-      
-        return (
+
+    return (
       <div>
         <div className="jumbotron-fluid">
           <Slider {...settings}>
